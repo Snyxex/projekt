@@ -1,0 +1,9 @@
+apt update 
+
+apt upgrade 
+
+apt install ca-certificates wget
+
+wget https://get.glennr.nl/unifi/install/install_latest/unifi-latest.sh 
+
+bash unifi-latest.sh
