@@ -1,3 +1,4 @@
+---
 version: '3.8'
 services:
   grafana:
@@ -11,4 +12,8 @@ services:
       - '3000:3000'
     # adding the mount volume point which we create earlier
     volumes:
+<<<<<<< HEAD
       - '$PWD/data:/var/lib/grafana'
+=======
+      - '$PWD/data:/var/lib/grafana'
+>>>>>>> 6f9487f05cb4a6044f74c17f6c7883d1afd25d2c
